@@ -1,0 +1,20 @@
+{
+  "app_name": "CmsProject",
+  "port": "8080",
+  "static_path": "/manage/static",
+  "data_base": {
+    "drive": "mysql",
+    "port": "3306",
+    "user": "root",
+    "pwd": "yu271400",
+    "database": "qfCms"
+  },
+  "redis": {
+    "net_work": "tcp",
+    "addr": "127.0.0.1",
+    "port": "6379",
+    "passwword": "hello",
+    "prefix": ""
+  },
+  "mode": "dev"
+}
